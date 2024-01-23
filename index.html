@@ -4,16 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Kalkulator</title>
 </head>
 <body>
     <main>
         <div class="box">
-            <div class="font1">Kalkulator</div>
+            <div class="nazwa">Kalkulator</div>
             <input type=input id="A" placeholder="Wporwadź wartość A">
-            <input type=input id="B" placeholder="Wporwadź wartość A">
+            <input type=input id="B" placeholder="Wporwadź wartość B">
+            <button onclick="licz()" id="button">Oblicz</button>
+            <br>
+            <input name="typ" type="radio" class="kropka, font1" id="Kwadrat">Kwadrat
+            <input name="typ" type="radio" class="kropka" id="Trójkąt">Trójkąt
+            <input name="typ" type="radio" class="kropka" id="Prostokąt">Prostokąt
+            <input name="typ" type="radio" class="kropka" id="Koło">Koło
+            <input name="typ"type="radio" class="kropka" id="Trapez">Trapez
+            <input name="typ" type="radio" class="kropka" id="Romb">Romb
+            <input name="typ"type="radio" class="kropka" id="Równoległobok">Równoległobok
+            <br>
+            <div class="nazwa2">Wynik: </div>
+            <div id="wynik"></div>
         </div>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
+
+
+    
+
+
 
 </body>
 </html>
