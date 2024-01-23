@@ -1,9 +1,4 @@
-function inputA(){
-    return document.getElementById("A").value;
-}
-function inputB(){
-    return document.getElementById("B").value;
-}
+
 
 function poleKwadrat(A){
     A = parseFloat(A);
@@ -16,12 +11,20 @@ function poleTrojkat(A,B){
 
     document.getElementById("wynik").innerText = A*B/2;
 }
-function poleRombu(A,B){
+function poleProstokat(A,B){
     A = parseFloat(A);
     B = parseFloat(B);
 
-    document.getElementById("wynik").innerText = A*B/2;
+    document.getElementById("wynik").innerText = A*B;
 }
+
+function poleProstokat(A,B){
+    A = parseFloat(A);
+    B = parseFloat(B);
+
+    document.getElementById("wynik").innerText = A*B;
+}
+
 function licz(){
     let A = document.getElementById("A").value;
     let B = document.getElementById("B").value;
